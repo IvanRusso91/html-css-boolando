@@ -72,12 +72,6 @@ div.vestiti img{
   width: 100%;
 }
 
-.img-nascosta{
-  position: absolute;
-  top: 0;
-  display: none;
-} 
-
 div.sconti{
   position: absolute;
   top: 480px;
