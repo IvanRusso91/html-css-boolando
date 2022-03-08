@@ -34,7 +34,7 @@ div.vestiti{
 
 div.text{
   position: absolute;
-  top: 550px;
+  top: 100%;
 }
 
 h3{
@@ -52,7 +52,7 @@ div.text .prezzo{
 div.heart{
   position: absolute;
   top: 20px;
-  left: 338px;
+  right: 0;
   background-color: white;
   padding: 10px;
   font-size: 1.5rem; 
@@ -74,7 +74,7 @@ div.vestiti img{
 
 div.sconti{
   position: absolute;
-  top: 480px;
+  top: 85%;
   color: white; 
 }
 
@@ -100,4 +100,7 @@ p.sost{
   display: block;
 }
 
+.heart:hover .sub-heart{
+  color: red;
+}
 /* /MAIN */
